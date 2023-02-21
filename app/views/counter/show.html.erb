@@ -1,0 +1,8 @@
+<%= turbo_stream_from 'counter_stream' %>
+
+<%= button_to '+', increment_path %>
+
+<div id='counter'>
+  <%= @counter.value %>
+</div>
+<%= button_to '-', decrement_path %>
